@@ -1,0 +1,14 @@
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\bin\Debug\net9.0\laba_oop_lr8.exe
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\bin\Debug\net9.0\laba_oop_lr8.deps.json
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\bin\Debug\net9.0\laba_oop_lr8.runtimeconfig.json
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\bin\Debug\net9.0\laba_oop_lr8.dll
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\bin\Debug\net9.0\laba_oop_lr8.pdb
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\laba_oop_lr8.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\laba_oop_lr8.AssemblyInfoInputs.cache
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\laba_oop_lr8.AssemblyInfo.cs
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\laba_oop_lr8.csproj.CoreCompileInputs.cache
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\laba_oop_lr8.dll
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\refint\laba_oop_lr8.dll
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\laba_oop_lr8.pdb
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\laba_oop_lr8.genruntimeconfig.cache
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\ref\laba_oop_lr8.dll
