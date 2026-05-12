@@ -241,6 +241,52 @@ namespace laba_oop_lr8
                 throw new BookingException($"Booking with ID {bookingId} not found.");
             }
         }
+        
+        // 1.7. Замінити текст заявки
+        public void UpdateBookingNote(int bookingId, string newNote)
+        {
+            var booking = _bookings.FirstOrDefault(b => b.BookingId == bookingId);
+            if (booking == null)
+                throw new BookingException($"Booking with ID {bookingId} not found.");
+            
+            booking.RequestNote = newNote;
+        }
+
+        // 1.8. Переглянути дані заявок за певний термін
+        public List<Booking> GetBookingsByDateRange(DateTime start, DateTime end)
+        {
+            return _bookings.Where(b => b.StartDate >= start && b.EndDate <= end).ToList();
+        }
+
+        // 3.3. Переглянути дані конкретного замовлення
+        public Booking GetBookingById(int bookingId)
+        {
+            return _bookings.FirstOrDefault(b => b.BookingId == bookingId);
+        }
+
+        // 3.4. Кількість забронюваних місць і які саме (на конкретну дату)
+        public List<Room> GetOccupiedRooms(DateTime date)
+        {
+            // Шукаємо бронювання, які активні в задану дату
+            return _bookings
+                .Where(b => date >= b.StartDate && date < b.EndDate)
+                .Select(b => b.BookedRoom)
+                .Distinct()
+                .ToList();
+        }
+
+        // 3.5. Кількість вільних місць і які саме (на конкретну дату)
+        public List<Room> GetFreeRooms(DateTime date)
+        {
+            var occupiedRooms = GetOccupiedRooms(date).Select(r => r.RoomNumber).ToList();
+            return _rooms.Where(r => !occupiedRooms.Contains(r.RoomNumber)).ToList();
+        }
+
+        // 3.7. Клієнти, які забронювали номери в цьому готелі
+        public List<Client> GetClientsWithBookings()
+        {
+            return _bookings.Select(b => b.Guest).Distinct().ToList();
+        }
 
         /// <summary>
         /// Повертає список усіх бронювань у готелі.

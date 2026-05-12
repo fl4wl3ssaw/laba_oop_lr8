@@ -12,3 +12,4 @@ D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\refint\laba_oop_lr8
 D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\laba_oop_lr8.pdb
 D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\laba_oop_lr8.genruntimeconfig.cache
 D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\ref\laba_oop_lr8.dll
+D:\workspace\work\laba_oop_lr8\laba_oop_lr8\obj\Debug\net9.0\laba_oop_lr8.sourcelink.json
